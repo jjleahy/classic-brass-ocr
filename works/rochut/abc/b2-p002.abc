@@ -1,0 +1,22 @@
+X:1
+T:No. 61
+Q:"Larghetto" 1/8=84
+M:6/8
+L:1/16
+K:D clef=bass
+"_dolce"(F,3 G, F,2 !<(!B,2 C2 !<)!D2) | !>(!(D6 !>)!C4) z2 | (F,3 G, F,2 !<(!C2 D2 !<)!E2) | !>(!(E6 !>)!D4) (B,2 |
+=C3 D C2 B,6 | ^A,6) (E3 F E2 | D4 B,C {B,}D-D C B, =A,/G,/F,/^E,/ | !breath!F,12) | !<(!(F,12 |
+!<)!{^E,F,}!fermata!!breath!!>(!F12) | !>)!!p!(A,3 B, A,2 D2 E2 F2 | A,6 ^G,4) z2 | (E3 ^D E F G E C A, B, G,) |
+(G,4 F,2 !breath!D4) (F,2 | G,3 A, G,2 G4 D2) | (D6 ^C6) | (A,3 _B, A,2 =F4 E2) | (E4 ^D2 ^F4) !breath!(A,2 |
+G,4 E,2 E4 D/ =C/ B,/ ^A,/ | !breath!B,12) | !<(!B,12- | B,12- | !<)!!breath!B,3 (^A, B, =C E3 D C B,) |
+(B,3 =A, B, A, G,4) (D,2 | G,2- (3G,F,G, {/B,}(3A,G,A, B,2- (3B,^A,B, {/D}(3=C B, C | D2 G2 E2 !breath!D4) (E/ =F/ E/ D/) |
+(=C2 A,2) (D/ E/ D/ C/ B,2 G,2) (C/ D/ C/ B,/ | ^A,2 F,2) (B,/ =C/ B,/ A,/ G,4 ^G,2 | A,2 B,2 =C2 !breath!=G,4) (F,2 |
+% -- page b2-p003 --
+B,3 ^A, B, =C F3 D C B, | B,3 A, B, A, !breath!G,4) (D,2 | B,3 ^A, B, ^C D3 A, B, C) |
+(E3 D C B, F,3) (F =G F | G3 F E D C2 !breath!F2) ((3F,^G,^A, | B,B,,D,F,B,D F2- F3/2 =G/ F3/2 G/ |
+"_rallent."F2-) !breath!F3/2 G/ (F3/2 G/ !fermata!F6) | "^a tempo"(F,3 G, F,2 !<(!B,2 C2 !<)!D2) | !>(!(D6 !>)!C4) z2 | (F,3 G, F,2 C2 D2 E2) | !>(!(E6 !>)!!breath!D4) (B,2 |
+(=C3 D C2 B,6 | ^A,6) (E3 G F2 | D3 B, ^C D =C3 C D E | !breath!B,3) (B, ^C D ^A,3 C D E |
+!breath!G3) (D F G B2- B/ A/ B/ A/ G/ F/ D/ C/ | A2- !breath!A/) (F/ G/ F/ E/ D/ C/ B,/ ^A,) G, F, E, D, C, |
+B,,6- B,,4 z2 | (^D,3 F, A, B, =C2- C/ B,/ C/ B,/ D/ C/ B,/ A,/ | A,2- A,/ G,/ F,/ G,/ A,/ G,/ B,/ ^D,/ !breath!E,4) (B,2 |
+"_rallent."^A, B, ^C =D E G =B A G F D C | B,4) z2 "^a tempo"(C3 D C2 | B,2 F4) (F,2 G,2 F, E, |
+D,4 B,,2) (C3 D C2 | B,2 D2 !breath!F2) (F, G,3 F, E,/ C,/ | B,,6-) B,,2 "_rallent"(D,2 F,2 | !>(!B,12- | !>)!B,4) z2 z4 z2 |]
