@@ -1,0 +1,47 @@
+X:1
+T:51
+M:C|
+L:1/8
+K:B clef=treble
+!p!(!>!B,DFD !>!B,DFD) | (!>!B,DFD !>!B,DFD) | (!>!B,EGE !>!B,EGE) | (!>!B,EGE !>!B,EGE) |
+(!>!B,DFD !>!B,DFD) | (!>!B,DFD !>!B,DFD) | (!>!CEFE !>!A,EFE) | (!>!CEFE !>!A,EFE) :| (!>!B,CDF !>!BFDF) | !>!B,4 !fermata!z4 |]
+
+X:2
+T:52
+M:C|
+L:1/8
+K:C clef=treble
+!p!(!>!CEGE !>!CEGE) | (!>!CEGE !>!CEGE) | (!>!CFAF !>!CFAF) | (!>!CFAF !>!CFAF) |
+(!>!CEGE !>!CEGE) | (!>!CEGE !>!CEGE) | (!>!DFGF !>!B,FGF) | (!>!DFGF !>!B,FGF) :| (!>!CDEG !>!cGEG) | !>!C4 !fermata!z4 |]
+
+X:3
+T:53
+M:C|
+L:1/8
+K:Db clef=treble
+!p!(!>!DFAF !>!DFAF) | (!>!DFAF !>!DFAF) | (!>!DGBG !>!DGBG) | (!>!DGBG !>!DGBG) |
+(!>!DFAF !>!DFAF) | (!>!DFAF !>!DFAF) | (!>!EGAG !>!CGAG) | (!>!EGAG !>!CGAG) :| (!>!DEFA !>!dAFA) | !>!D4 !fermata!z4 |]
+
+X:4
+T:54
+M:C|
+L:1/8
+K:D clef=treble
+!p!(!>!DFAF !>!DFAF) | (!>!DFAF !>!DFAF) | (!>!DGBG !>!DGBG) | (!>!DGBG !>!DGBG) |
+(!>!DFAF !>!DFAF) | (!>!DFAF !>!DFAF) | (!>!EGAG !>!CGAG) | (!>!EGAG !>!CGAG) :| (!>!DEFA !>!dAFA) | !>!D4 !fermata!z4 |]
+
+X:5
+T:55
+M:C|
+L:1/8
+K:Eb clef=treble
+!p!(!>!EGBG !>!EGBG) | (!>!EGBG !>!EGBG) | (!>!EAcA !>!EAcA) | (!>!EAcA !>!EAcA) |
+(!>!EGBG !>!EGBG) | (!>!EGBG !>!EGBG) | (!>!FABA !>!DABA) | (!>!FABA !>!DABA) :| (!>!EFGB !>!eBGB) | !>!E4 !fermata!z4 |]
+
+X:6
+T:56
+M:C|
+L:1/8
+K:E clef=treble
+!p!(!>!EGBG !>!EGBG) | (!>!EGBG !>!EGBG) | (!>!EAcA !>!EAcA) | (!>!EAcA !>!EAcA) |
+(!>!EGBG !>!EGBG) | (!>!EGBG !>!EGBG) | (!>!FABA !>!DABA) | (!>!FABA !>!DABA) :| (!>!EFGB !>!eBGB) | !>!E4 !fermata!z4 |]

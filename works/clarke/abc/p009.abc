@@ -1,0 +1,67 @@
+X:1
+T:37
+M:C|
+L:1/8
+K:F clef=treble
+!p!(!>!FGAF !>!GABG | !>!ABcA !>!FGAF | !>!GABG !>!EFGE | FAGF GBAG) :| F4 !fermata!z4 |] % ? bar 4: no accents printed (printed in no. 38)
+
+X:2
+T:38
+M:C|
+L:1/8
+K:F# clef=treble
+!p!(!>!^FGAF !>!GABG | !>!ABcA !>!FGAF | !>!GABG !>!EFGE | !>!FAGF !>!GBAG) :| F4 !fermata!z4 |]
+
+X:3
+T:39
+M:C|
+L:1/8
+K:G clef=treble
+!p!(!>!GABG !>!ABcA | !>!BcdB !>!GABG | !>!ABcA !>!FGAF | !>!GBAG !>!AcBA) :| G4 !fermata!z4 |]
+
+X:4
+T:40
+M:C|
+L:1/8
+K:Ab clef=treble
+!p!(!>!ABcA !>!BcdB | !>!cdec !>!ABcA | !>!BcdB !>!GABG | !>!AcBA !>!BdcB) :| A4 !fermata!z4 |]
+
+X:5
+T:41
+M:C|
+L:1/8
+K:A clef=treble
+!p!(!>!=ABcA !>!BcdB | !>!cdec !>!ABcA | !>!BcdB !>!GABG | !>!AcBA !>!BdcB) :| A4 !fermata!z4 |]
+
+X:6
+T:42
+M:C|
+L:1/8
+K:Bb clef=treble
+!p!(!>!BcdB !>!cdec | !>!defd !>!BcdB | !>!cdec !>!ABcA | !>!BdcB !>!cedc) :| B4 !fermata!z4 |]
+
+X:7
+T:43
+M:C|
+L:1/8
+K:B clef=treble
+!p!(!>!=BcdB !>!cdec | !>!defd !>!BcdB | !>!cdec !>!ABcA | !>!BdcB !>!cedc) :| B4 !fermata!z4 |]
+
+X:8
+T:44
+M:C|
+L:1/8
+K:C clef=treble
+!p!(!>!cdec !>!defd | !>!efge !>!cdec | !>!defd !>!BcdB | !>!cedc !>!dfed) :| c4 !fermata!z4 |]
+
+X:9
+T:ETUDE II
+T:45
+Q:"Met." 1/4=144
+M:C
+L:1/16
+K:G clef=treble
+!p!(!>!G,A,B,G, A,CB,A, !>!B,CDB, CEDC | !>!A,B,^CA, B,D^CB, !>!^CDEC DFED) |
+(!>!B,^C^DB, CEDC !>!^DEFD E^GFE) | (!>!=CDEC =FAGF !>!DE^FD GBAG) |
+(!>!dcBd cABc) (!>!BAGB AFGA) | (!>!_B_A_GB A=FGA) (!>!G=F_EG F_D_EF) |
+(!>!^F=A^GF) (!>!=Ad^cA) (E^GFE) (!>!G=cBA) | (!>!AdAG FAFD) (!>!GDB,C DECA,) :| !fermata!G,16 |]

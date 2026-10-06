@@ -1,0 +1,40 @@
+X:1
+T:46
+Q:1/2=60 "Met. 𝅗𝅥=60 to 𝅗𝅥=120"
+M:C|
+L:1/8
+K:F# clef=treble
+!p!(!>!F,A,CA, !>!F,A,CA,) | (!>!F,A,CA, !>!F,A,CA,) | (!>!F,B,DB, !>!F,B,DB,) | (!>!F,B,DB, !>!F,B,DB,) |
+(!>!F,A,CA, !>!F,A,CA,) | (!>!F,A,CA, !>!F,A,CA,) | (!>!G,B,CB, !>!G,B,CB,) | (!>!G,B,CB, !>!G,B,CB,) :| (!>!F,G,A,C !>!FCA,C) | !>!F,4 !fermata!z4 |] % ? bars 7-8: second group begins on G, as the first group does; in nos. 47-50 it begins a third lower
+
+X:2
+T:47
+M:C|
+L:1/8
+K:G clef=treble
+!p!(!>!G,B,DB, !>!G,B,DB,) | (!>!G,B,DB, !>!G,B,DB,) | (!>!G,CEC !>!G,CEC) | (!>!G,CEC !>!G,CEC) |
+(!>!G,B,DB, !>!G,B,DB,) | (!>!G,B,DB, !>!G,B,DB,) | (!>!A,CDC !>!F,CDC) | (!>!A,CDC !>!F,CDC) :| (!>!G,A,B,D !>!GDB,D) | !>!G,4 !fermata!z4 |]
+
+X:3
+T:48
+M:C|
+L:1/8
+K:Ab clef=treble
+!p!(!>!A,CEC !>!A,CEC) | (!>!A,CEC !>!A,CEC) | (!>!A,DFD !>!A,DFD) | (!>!A,DFD !>!A,DFD) |
+(!>!A,CEC !>!A,CEC) | (!>!A,CEC !>!A,CEC) | (!>!B,DED !>!G,DED) | (!>!B,DED !>!G,DED) :| (!>!A,B,CE !>!AECE) | !>!A,4 !fermata!z4 |]
+
+X:4
+T:49
+M:C|
+L:1/8
+K:A clef=treble
+!p!(!>!A,CEC !>!A,CEC) | (!>!A,CEC !>!A,CEC) | (!>!A,DFD !>!A,DFD) | (!>!A,DFD !>!A,DFD) |
+(!>!A,CEC !>!A,CEC) | (!>!A,CEC !>!A,CEC) | (!>!B,DED !>!G,DED) | (!>!B,DED !>!G,DED) :| (!>!A,B,CE !>!AECE) | !>!A,4 !fermata!z4 |]
+
+X:5
+T:50
+M:C|
+L:1/8
+K:Bb clef=treble
+!p!(!>!B,DFD !>!B,DFD) | (!>!B,DFD !>!B,DFD) | (!>!B,EGE !>!B,EGE) | (!>!B,EGE !>!B,EGE) |
+(!>!B,DFD !>!B,DFD) | (!>!B,DFD !>!B,DFD) | (!>!CEFE !>!A,EFE) | (!>!CEFE !>!A,EFE) :| (!>!B,CDF !>!BFDF) | !>!B,4 !fermata!z4 |]
