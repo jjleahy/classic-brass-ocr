@@ -1,0 +1,9 @@
+# Scratch renders of scan pages and proofs (tools/render_page.py, tools/proof.py)
+.render/
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+.claude/settings.local.json
