@@ -335,6 +335,11 @@ List every uncertainty and misprint in the pull request description as well.
   goes in `Q:`.
 - The footer code (for example `H.L.C. II 49`) goes in `plate`.
 - Pencil ticks and handwritten numbers in this copy are omitted.
+- **Fermatas over a final double bar are omitted.** Most exercises end with a fermata printed
+  over the double bar rather than over a note. Do not transcribe these; a fermata printed
+  over a note is the exception and is transcribed. Confirmed remarks like this go in
+  `works/clarke/TRANSCRIPTION_NOTES.md` (see the existing entries), not as `?` flags left in
+  the ABC.
 - `z01`–`z02` are the publisher's advertisements; transcribe them as text.
 
 ### Rochut: *120 Melodious Etudes for Trombone* (Carl Fischer, 1928)

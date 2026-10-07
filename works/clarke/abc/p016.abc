@@ -1,0 +1,29 @@
+X:1
+T:71
+M:C
+L:1/16
+K:B clef=treble
+!pp!(!>!B,CB,C !>!B,CB,C !>!B,CB,C !>!B,CB,C | !>!B,C=DC !>!B,CDC !>!B,CDC !>!B,CDC) |
+(!>!B,CB,C !>!B,CB,C !>!B,CB,C !>!B,CB,C | !>!B,C^DC !>!B,CDC !>!B,!<(!CDE !>!FGAB!<)!) |
+(!>!FGFG !>!FGFG !>!FGFG !>!FGFG | !>!FG=AG !>!FGAG !>!FGAG !>!FGAG) |
+(!>!FGFG !>!FGFG !>!FGFG !>!FGFG | !>!FG^AG !>!FGAG !>!FGAG !>!FEDC) :| (!>!B,DCE !>!DFEC !>!B,8) |]
+
+X:2
+T:72
+M:C
+L:1/16
+K:C clef=treble
+!pp!(!>!CDCD !>!CDCD !>!CDCD !>!CDCD | !>!CD_ED !>!CDED !>!CDED !>!CDED) |
+(!>!CDCD !>!CDCD !>!CDCD !>!CDCD | !>!CD=ED !>!CDED !>!C!<(!DEF !>!GABc!<)!) |
+(!>!GAGA !>!GAGA !>!GAGA !>!GAGA | !>!GA_BA !>!GABA !>!GABA !>!GABA) |
+(!>!GAGA !>!GAGA !>!GAGA !>!GAGA | !>!GA=BA !>!GABA !>!GABA !>!GFED) :| (!>!CEDF !>!EGFD !>!C8) |]
+
+X:3
+T:73
+M:C
+L:1/16
+K:Db clef=treble
+!pp!(!>!DEDE !>!DEDE !>!DEDE !>!DEDE | !>!DE_FE !>!DEFE !>!DEFE !>!DEFE) |
+(!>!DEDE !>!DEDE !>!DEDE !>!DEDE | !>!DE=FE !>!DEFE !>!D!<(!EFG !>!ABcd!<)!) |
+(!>!ABAB !>!ABAB !>!ABAB !>!ABAB | !>!AB_cB !>!ABcB !>!ABcB !>!ABcB) |
+(!>!ABAB !>!ABAB !>!ABAB !>!ABAB | !>!AB=cB !>!ABcB !>!ABcB !>!AGFE) :| (!>!DFEG !>!FAGE !>!D8) |]
