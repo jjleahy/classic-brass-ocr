@@ -57,5 +57,7 @@ the engraved music for that page's systems, its `?`/`sic` flags, and its Markdow
 - **Licences.** Transcriptions under `works/` are CC0 1.0 (`LICENSE-CC0`); code is MIT
   (`LICENSE`).
 - **Scope.** A transcription PR changes only its own chunk's files under `works/`, plus
-  catalog rows for its own pages if they need correcting.
+  catalog rows for its own pages if they need correcting. It may also make minor edits or
+  additions to `docs/TRANSCRIPTION_GUIDE.md` for anything learned while transcribing the chunk
+  (a convention that was unclear, a recurring pitfall).
 - **Line endings.** Use LF and UTF-8 everywhere.

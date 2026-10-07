@@ -228,6 +228,22 @@ proof every time.
 - **One ABC line per printed system.** Never use `\` to continue a line.
 - **Beaming follows spacing.** Notes written together are beamed; a space breaks the beam.
   Match the printed beam groups.
+  - **Do not put a space after every note.** With `L:1/16` it is tempting to write
+    `F,3 G, F,2 B,2 C2 D2`, but that prints every eighth and sixteenth unbeamed. Write each
+    beamed group with no spaces inside it, and put a space only where the print's beam ends:
+    `F,3G,F,2 B,2C2D2` (6/8: two beamed groups); `C1B,1F1D1 C1B,1A,1G,1` (four sixteenths per beat).
+  - Typical groups: one beam per beat (a quarter in 4/4, a dotted quarter in 6/8), broken at rests,
+    bar lines and notes of a quarter or longer. Follow the print where it differs (a beam that runs
+    across a beat, or a whole bar beamed together).
+  - A slur, decoration or grace note does not break a beam, so `!<(!B,2C2!<)!D2` is still one group.
+  - Check beams on the proof, not the ABC: a page whose proof shows mostly flagged single notes
+    where the scan shows beams has too many spaces.
+- **Breath marks and other `!breath!` commas belong on the note they follow.** The comma is drawn
+  after the note it is attached to, so write `!breath!E8) (B,4 G,4` for a comma printed after E,
+  not `E8) !breath!(B,4`, which draws it after B. The same goes for `!fermata!` and similar marks:
+  they attach to the note written immediately after them.
+- **Check where slurs stop at a system break.** A slur that runs off the end of a system continues
+  on the next one; do not close it at the line end and open a new one.
 - **Bar lines as printed:** `|`, `||`, `|]`, `|:`, `:|`, `::`. Endings are `[1` and `[2`.
 
 ### Changes inside a piece
@@ -368,5 +384,7 @@ Proofread:
   - the number of bars per system
   - every pitch, its octave and accidental
   - every rhythm (each bar's durations must add up)
-  - slurs and ties
+  - beam groups (see §4 Layout: no space after every note)
+  - slurs and ties, including slurs that continue across a system break
+  - breath marks: the comma sits after the note it is attached to
   - dynamics, articulations and text directions
