@@ -77,8 +77,10 @@ PR against `develop`.
 **Reviewing a chunk PR:**
 
 - CI (`validate`) is green.
-- Pick two or three pages. Open the scan page next to the Markdown, and run
-  `python tools/proof.py <work> <label>` to compare the engraved music with the scan.
+- Check out the PR branch and run `python tools/review.py <chunk>`. It writes
+  `.render/<work>/review-<chunk>.html`: each scan page beside its rendered Markdown and the
+  engraved music for that page, with its uncertainty and misprint flags. Open it in a browser
+  and compare page by page. After fixes, rerun it and reload.
 - Read the PR's list of uncertain readings and misprints; resolve what you can.
 - Check where the chunk meets its neighbours: a unit that continues across pages belongs to
   the page where it starts (guide §6).

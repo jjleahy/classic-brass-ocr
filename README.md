@@ -104,6 +104,7 @@ python tools/status.py                         # progress by chunk
 python tools/render_page.py arban p005 --grid 3x3   # render a scan page into zoomed tiles (.render/)
 python tools/build_music.py                    # regenerate MusicXML from ABC
 python tools/proof.py arban p005               # engrave the transcribed music for comparison with the scan
+python tools/review.py rochut-b2-01             # review page: each scan beside its transcription (.render/)
 python tools/validate.py                       # consistency checks (run in CI)
 ```
 
