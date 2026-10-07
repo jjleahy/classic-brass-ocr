@@ -36,8 +36,21 @@ python tools/status.py [chunk]                        # progress / pages in a ch
 python tools/render_page.py <work> <label> [--grid RxC | --crop x0,y0,x1,y1]   # scan → .render/
 python tools/build_music.py [<work> <label>...]       # ABC → MusicXML
 python tools/proof.py <work> <label>                  # engrave the ABC → .render/ for visual comparison
+python tools/review.py <work|chunk> [<label>...]      # side-by-side review page: scan | transcription
 python tools/validate.py                              # must pass before committing (CI runs it)
 ```
+
+## Reviewing
+
+The user reviews transcriptions in the page that `tools/review.py` writes to
+`.render/<work>/review-<target>.html`. Each row shows a scan page beside its rendered Markdown,
+the engraved music for that page's systems, its `?`/`sic` flags, and its Markdown and ABC source.
+
+- When the user asks to review transcribed pages, build the page and open it in their
+  browser (on Windows: `Start-Process msedge <file:///…html>`).
+- **After making changes from review feedback, rerun the same `tools/review.py` command**
+  (and `tools/build_music.py` for ABC changes) so the open page can simply be reloaded.
+- The page shows only what is on the current branch, so check out the branch under review first.
 
 ## Rules
 
