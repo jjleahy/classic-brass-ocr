@@ -1,0 +1,15 @@
+X:1
+T:No. 65
+Q:"Andante cantabile" 1/8=69
+M:2/4
+L:1/16
+K:Ab clef=bass
+z4 z2 (E,3/2A,/ | C4 A,2) (E,3/2A,/ | C4 !breath!A,2) (C3/2D/ | C4 A,2 {CB,=B,A,B,}C3/2B,/ |
+B,2-B,/A,/G,/F,/ !breath!E,2) (E,3/2A,/ | C4 A,2) (E,3/2A,/ | C4 !breath!A,2) (C3/2D/ | E4-E1D/C/ B,1C/B,/ | A,4-A,2) z3/2 !f!C/ |
+(F4 F,2A,3/2G,/ | F,4 =E,2) z3/2 !f!C/ | (F4 F,1G,1A,1B,1 | C8- | !breath!C3)(B,1 =A,1B,1C1D1 |
+(=D1E1A2-) (A1C1E1A,1 | C3B,1) C1B,1G,1E,1 | E,3F,/G,/ A,2) z2 | (A,3B,/A,/ G,1F,1E,1=D,1 |
+E,3{F,E,=E,E,}G,1) B,,2 z2 | (A,4-A,/G,/B,/A,/ G,/F,/E,/=D,/ | C2-C/B,/=A,/B,/ E1) z1 (E,3/2G,/ | B,4-B,1=E,1F,1G,1 |
+A,4-A,1)!breath!(=D,1_E,1F,1 | G,4-(3G,1F,1G,1 (3A,1B,1C1 | C2 !breath!E,4) (G,2 | B,3=A,1 _A,1F,1C,1D,1 | E,2) !>!E4 !<(!!>!E2- | E2 !>!E6-!<)! |
+!>(!E8-!>)! | !breath!E6 (E,3/2A,/ | C4 A,2) (E,3/2A,/ | C4 A,2) (C3/2D/ | E4 B,2) (C3/2B,/ | B,2-B,/A,/G,/F,/ !breath!E,2) (E,3/2A,/ |
+C3A,1 E,2F,/G,/A,/B,/ | C2-C/D/B,/E/ !breath!A,2) (C3/2D/ | E1)E,1 !fermata!G2 "_a piacere"(G/F/E/D/C/D/B,/E/) ||
+[M:C][Q:"Allegro" 1/4=120] A,8 z8 | (C12 B,2A,2 | G,8 F,4) z4 | (B,8-B,2C2D2=D2 | E6 C2 A,4) z4 | % ? small arc over the first half note of this system: unclear whether it begins or ends a slur
