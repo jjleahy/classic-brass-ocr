@@ -4,7 +4,7 @@ M:C|
 L:1/8
 K:F clef=treble
 !p!(!>!FAcA !>!FAcA) | (!>!FAcA !>!FAcA) | (!>!FBdB !>!FBdB) | (!>!FBdB !>!FBdB) |
-(!>!FAcA !>!FAcA) | (!>!FAcA !>!FAcA) | (!>!GBcB !>!EBcB) | (!>!GBcB !>!EBcB) :| (!>!FGAc !>!fcAc) | !>!F4 !fermata!z4 |]
+(!>!FAcA !>!FAcA) | (!>!FAcA !>!FAcA) | (!>!GBcB !>!EBcB) | (!>!GBcB !>!EBcB) :| (!>!FGAc !>!fcAc) | !>!F4 z4 |]
 
 X:2
 T:58
@@ -12,7 +12,7 @@ M:C|
 L:1/8
 K:F# clef=treble
 !p!(!>!FAcA !>!FAcA) | (!>!FAcA !>!FAcA) | (!>!FBdB !>!FBdB) | (!>!FBdB !>!FBdB) |
-(!>!FAcA !>!FAcA) | (!>!FAcA !>!FAcA) | (!>!GBcB !>!EBcB) | (!>!GBcB !>!EBcB) :| (!>!FGAc !>!fcAc) | !>!F4 !fermata!z4 |]
+(!>!FAcA !>!FAcA) | (!>!FAcA !>!FAcA) | (!>!GBcB !>!EBcB) | (!>!GBcB !>!EBcB) :| (!>!FGAc !>!fcAc) | !>!F4 z4 |]
 
 X:3
 T:59
@@ -20,7 +20,7 @@ M:C|
 L:1/8
 K:G clef=treble
 !p!(!>!GBdB !>!GBdB) | (!>!GBdB !>!GBdB) | (!>!Gcec !>!Gcec) | (!>!Gcec !>!Gcec) |
-(!>!GBdB !>!GBdB) | (!>!GBdB !>!GBdB) | (!>!Acdc !>!Fcdc) | (!>!Acdc !>!Fcdc) :| (!>!GABd !>!gdBd) | G4 !fermata!z4 |]
+(!>!GBdB !>!GBdB) | (!>!GBdB !>!GBdB) | (!>!Acdc !>!Fcdc) | (!>!Acdc !>!Fcdc) :| (!>!GABd !>!gdBd) | G4 z4 |]
 
 X:4
 T:60
@@ -28,7 +28,7 @@ M:C|
 L:1/8
 K:Ab clef=treble
 !p!(!>!Acec !>!Acec) | (!>!Acec !>!Acec) | (!>!Adfd !>!Adfd) | (!>!Adfd !>!Adfd) |
-(!>!Acec !>!Acec) | (!>!Acec !>!Acec) | (!>!Bded !>!Gded) | (!>!Bded !>!Gded) :| (!<(!!>!ABce!<)! !>!aece) | A4 !fermata!z4 |]
+(!>!Acec !>!Acec) | (!>!Acec !>!Acec) | (!>!Bded !>!Gded) | (!>!Bded !>!Gded) :| (!<(!!>!ABce!<)! !>!aece) | A4 z4 |]
 
 X:5
 T:61
@@ -36,7 +36,7 @@ M:C|
 L:1/8
 K:A clef=treble
 !p!(!>!Acec !>!Acec) | (!>!Acec !>!Acec) | (!>!Adfd !>!Adfd) | (!>!Adfd !>!Adfd) |
-(!>!Acec !>!Acec) | (!>!Acec !>!Acec) | (!>!Bded !>!Gded) | (!>!Bded !>!Gded) :| (!>!ABce !>!aece) | !>!A4 !fermata!z4 |]
+(!>!Acec !>!Acec) | (!>!Acec !>!Acec) | (!>!Bded !>!Gded) | (!>!Bded !>!Gded) :| (!>!ABce !>!aece) | !>!A4 z4 |]
 
 X:6
 T:62
@@ -44,4 +44,4 @@ M:C|
 L:1/8
 K:Bb clef=treble
 !p!(!>!Bdfd !>!Bdfd) | (!>!Bdfd !>!Bdfd) | (!>!Bege !>!Bege) | (!>!Bege !>!Bege) |
-(!>!Bdfd !>!Bdfd) | (!>!Bdfd !>!Bdfd) | (!>!cefe !>!Aefe) | (!>!cefe !>!Aefe) :| (!<(!!>!Bcdf!<)! !>!bfdf) | B4 !fermata!z4 |]
+(!>!Bdfd !>!Bdfd) | (!>!Bdfd !>!Bdfd) | (!>!cefe !>!Aefe) | (!>!cefe !>!Aefe) :| (!<(!!>!Bcdf!<)! !>!bfdf) | B4 z4 |]

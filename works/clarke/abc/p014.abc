@@ -7,7 +7,7 @@ K:F# clef=treble
 !pp!(!>!F,G,F,G, !>!F,G,F,G, !>!F,G,F,G, !>!F,G,F,G, | !>!F,G,=A,G, !>!F,G,A,G, !>!F,G,A,G, !>!F,G,A,G,) |
 (!>!F,G,F,G, !>!F,G,F,G, !>!F,G,F,G, !>!F,G,F,G, | !>!F,G,^A,G, !>!F,G,A,G, !>!F,!<(!G,A,B, !>!CDEF!<)!) |
 (!>!CDCD !>!CDCD !>!CDCD !>!CDCD | !>!CD=ED !>!CDED !>!CDED !>!CDED) |
-(!>!CDCD !>!CDCD !>!CDCD !>!CDCD | !>!CD^ED !>!CDED !>!C!>(!DED !>!CB,A,G,!>)!) :| (!>!F,A,G,B, !>!A,CB,G, !>!!fermata!F,8) |]
+(!>!CDCD !>!CDCD !>!CDCD !>!CDCD | !>!CD^ED !>!CDED !>!C!>(!DED !>!CB,A,G,!>)!) :| (!>!F,A,G,B, !>!A,CB,G, !>!F,8) |]
 
 X:2
 T:67

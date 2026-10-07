@@ -20,7 +20,7 @@ from common import (CATALOG, LABEL_RE, MUSIC_ID_RE, MUSIC_REF_RE, ROOT, SCANS, W
 
 FRONT_KEYS = ("work", "page", "printed", "source", "pdf_page")
 LANG_MARK_RE = re.compile(r"^<!-- lang: ([a-z]{2}) -->$", re.M)
-ALLOWED_TOP = {"README.md", "pages", "abc", "musicxml"}
+ALLOWED_TOP = {"README.md", "TRANSCRIPTION_NOTES.md", "pages", "abc", "musicxml"}
 
 errors: list[str] = []
 

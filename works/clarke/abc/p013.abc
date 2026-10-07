@@ -4,7 +4,7 @@ M:C|
 L:1/8
 K:B clef=treble
 !p!(!>!Bdfd !>!Bdfd) | (!>!Bdfd !>!Bdfd) | (!>!Bege !>!Bege) | (!>!Bege !>!Bege) |
-(!>!Bdfd !>!Bdfd) | (!>!Bdfd !>!Bdfd) | (!>!cefe !>!Aefe) | (!>!cefe !>!Aefe) :| (!<(!!>!Bcdf!<)! !>!bfdf) | B4 !fermata!z4 |]
+(!>!Bdfd !>!Bdfd) | (!>!Bdfd !>!Bdfd) | (!>!cefe !>!Aefe) | (!>!cefe !>!Aefe) :| (!<(!!>!Bcdf!<)! !>!bfdf) | B4 z4 |]
 
 X:2
 T:64
@@ -12,7 +12,7 @@ M:C|
 L:1/8
 K:C clef=treble
 !p!(!>!cege !>!cege) | (!>!cege !>!cege) | (!>!cfaf !>!cfaf) | (!>!cfaf !>!cfaf) |
-(!>!cege !>!cege) | (!>!cege !>!cege) | (!>!dfgf !>!Bfgf) | (!>!dfgf !>!Bfgf) :| (!<(!!>!cdeg!<)! !>!c'geg) | c4 !fermata!z4 |]
+(!>!cege !>!cege) | (!>!cege !>!cege) | (!>!dfgf !>!Bfgf) | (!>!dfgf !>!Bfgf) :| (!<(!!>!cdeg!<)! !>!c'geg) | c4 z4 |]
 
 X:3
 T:ETUDE III
@@ -28,4 +28,4 @@ K:C clef=treble
 (_ecGc _ecGc) (eged cec_B) | (A^FDA, ^F,A,DF ADFA) d2 !breath!z2 |
 (D=ED=B, DEDB, DEDB, G,B,CD) | (EFEC EFEC EFEC G,CEG) |
 (AGFE FAcA fcAc FAce) | (dgdc BGDC B,DGA BGAB) |
-(ceg^f agec) (=fgag fedc) | (BAGA !<(!Bcde fgab) !fermata!c'4!<)! |]
+(ceg^f agec) (=fgag fedc) | (BAGA !<(!Bcde fgab) c'4!<)! |]

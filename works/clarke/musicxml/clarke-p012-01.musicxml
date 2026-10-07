@@ -944,9 +944,6 @@
         <duration>240</duration>
         <voice>1</voice>
         <type>half</type>
-        <notations>
-          <fermata type="upright" />
-        </notations>
       </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>

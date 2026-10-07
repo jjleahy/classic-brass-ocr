@@ -1782,7 +1782,6 @@
         <voice>1</voice>
         <type>half</type>
         <notations>
-          <fermata type="upright" />
           <articulations>
             <accent />
           </articulations>

@@ -2766,9 +2766,6 @@
         <duration>120</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <notations>
-          <fermata type="upright" />
-        </notations>
       </note>
       <direction placement="below">
         <direction-type>
