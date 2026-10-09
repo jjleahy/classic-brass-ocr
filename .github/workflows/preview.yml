@@ -41,13 +41,16 @@ jobs:
       - id: preview
         name: Create or update the Preview
         if: steps.build.outputs.chunks != ''
+        # Wrangler's stdout is not pure JSON even with --json (jq failed to parse it), so read the
+        # URL from its output file instead: one JSON object per line, with `type` and `preview_urls`.
         run: |
-          set -o pipefail
-          output="$(npx --yes "$WRANGLER" preview --name "$PREVIEW_NAME" --message "${{ github.event.pull_request.head.sha }}" --json)"
-          echo "preview_url=$(printf '%s' "$output" | jq -er '.preview.urls[0]')" >> "$GITHUB_OUTPUT"
+          npx --yes "$WRANGLER" preview --name "$PREVIEW_NAME" --message "${{ github.event.pull_request.head.sha }}"
+          preview_url="$(jq -ser '[.[] | select(.type == "preview")] | last | .preview_urls[0]' "$WRANGLER_OUTPUT_FILE_PATH")"
+          echo "preview_url=$preview_url" >> "$GITHUB_OUTPUT"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_OUTPUT_FILE_PATH: ${{ runner.temp }}/wrangler-output.json
       - name: Comment the preview link
         if: steps.build.outputs.chunks != ''
         run: |
