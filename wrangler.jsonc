@@ -1,0 +1,11 @@
+{
+	// Static review site for pull requests: .github/workflows/preview.yml builds it with
+	// tools/preview_site.py and deploys it with `wrangler preview --name pr-<number>`.
+	"name": "classic-brass-review",
+	"compatibility_date": "2026-10-09",
+	"preview_urls": true,
+	"previews": {},
+	"assets": {
+		"directory": "./.render/site"
+	}
+}
