@@ -365,6 +365,14 @@ details { margin-top: 12px; font: 13px system-ui, sans-serif; }
 pre { white-space: pre-wrap; word-break: break-word; background: #f6f6f6; padding: 8px; font: 12px/1.45 Consolas, monospace; }
 mark { background: #ffe0a8; }
 .footnote { font-size: .9em; }
+@media (max-width: 800px) {
+  .page { margin: 8px 0; border-radius: 0; }
+  .cols, body.noscan .cols { grid-template-columns: 1fr; }
+  .scan { border-right: 0; border-bottom: 1px solid #ddd; }
+  .scan img { position: static; }
+  .text { padding: 8px 12px 20px; }
+  nav label:has(#split) { display: none; }
+}
 """
 
 JS = """
