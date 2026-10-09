@@ -169,3 +169,13 @@ PR against `develop`.
 | `rochut-b3-06` | b3-p052–b3-p061 | 10 | Etudes |  |
 | `rochut-b3-07` | b3-p062–b3-p071 | 10 | Etudes |  |
 | `rochut-b3-08` | b3-p072–b3-p079 | 8 | Etudes |  |
+
+## Chunk boundary notes
+
+Departures from the table above, recorded so the next chunk's session doesn't redo the work.
+
+- **`rochut-b2-01` also covers b2-p011 and b2-p012.** No. 65 starts on b2-p010 and runs to the
+  end of b2-p012. Its music is in `b2-p010.abc`, and `b2-p011.md` and `b2-p012.md` are
+  `(continued)` references to it. The catalog still assigns both pages to `rochut-b2-02`, so
+  that chunk's session should treat them as done and start at b2-p013. Until then the PR
+  preview also builds a `rochut-b2-02` review page holding just those two pages.
