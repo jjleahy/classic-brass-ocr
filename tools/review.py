@@ -50,6 +50,40 @@ def tune_pages(tune: str) -> tuple[int, list[tuple[str | None, int, int]]]:
     return n_systems, pages
 
 
+def close_slurs(measures: list[ET.Element]) -> None:
+    """Make every slur in a slice of measures start and stop inside it.
+
+    A slur that crosses the cut would otherwise be left with a stop and no start (or the reverse),
+    which Verovio pairs with the wrong neighbours and so drops the slurs around it. The part of
+    the slur on this page is drawn instead, from the first note or to the last note, as printed."""
+    notes = [n for m in measures for n in m.findall("note")]
+    if not notes:
+        return
+    open_, orphan_stops = set(), []
+    for note in notes:
+        for slur in note.iter("slur"):
+            num = slur.get("number", "1")
+            if slur.get("type") == "start":
+                open_.add(num)
+            elif num in open_:
+                open_.discard(num)
+            elif note is not notes[0]:
+                orphan_stops.append(num)
+
+    def add(note: ET.Element, kind: str, num: str) -> None:
+        notations = note.find("notations")
+        if notations is None:
+            notations = ET.Element("notations")
+            later = [i for i, c in enumerate(note) if c.tag in ("lyric", "play")]
+            note.insert(later[0] if later else len(note), notations)
+        ET.SubElement(notations, "slur", type=kind, number=num)
+
+    for num in orphan_stops:
+        add(notes[0], "start", num)
+    for num in open_:
+        add(notes[-1], "stop", num)
+
+
 def slice_measures(xml_text: str, first: int, last: int) -> str:
     """Keep measures first..last (1-based, inclusive) of every part, carrying the clef, key and
     time in force into the first kept measure (the time signature hidden, as a printed page
@@ -68,6 +102,7 @@ def slice_measures(xml_text: str, first: int, last: int) -> str:
                     state[child.tag + child.get("number", "")] = child
         for meas in measures[:first - 1] + measures[last:]:
             part.remove(meas)
+        close_slurs(measures[first - 1:last])
         if not state:
             continue
         head = measures[first - 1]
@@ -365,6 +400,14 @@ details { margin-top: 12px; font: 13px system-ui, sans-serif; }
 pre { white-space: pre-wrap; word-break: break-word; background: #f6f6f6; padding: 8px; font: 12px/1.45 Consolas, monospace; }
 mark { background: #ffe0a8; }
 .footnote { font-size: .9em; }
+@media (max-width: 800px) {
+  .page { margin: 8px 0; border-radius: 0; }
+  .cols, body.noscan .cols { grid-template-columns: 1fr; }
+  .scan { border-right: 0; border-bottom: 1px solid #ddd; }
+  .scan img { position: static; }
+  .text { padding: 8px 12px 20px; }
+  nav label:has(#split) { display: none; }
+}
 """
 
 JS = """

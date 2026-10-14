@@ -51,6 +51,10 @@ the engraved music for that page's systems, its `?`/`sic` flags, and its Markdow
 - **After making changes from review feedback, rerun the same `tools/review.py` command**
   (and `tools/build_music.py` for ABC changes) so the open page can simply be reloaded.
 - The page shows only what is on the current branch, so check out the branch under review first.
+- Pull requests also get a public preview (for reviewing on a phone): `.github/workflows/preview.yml`
+  builds the review page for each chunk the PR changes (`tools/preview_site.py`), deploys it as a
+  Cloudflare Workers Preview named `pr-<number>` (`wrangler.jsonc`) and comments the link on the PR.
+  Pushing to the PR rebuilds it; closing the PR deletes it.
 
 ## Rules
 
