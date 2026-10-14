@@ -2208,8 +2208,6 @@
         <accidental>sharp</accidental>
         <beam number="1">end</beam>
       </note>
-    </measure>
-    <measure number="46">
       <note>
         <pitch>
           <step>E</step>
@@ -2271,7 +2269,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="47">
+    <measure number="46">
       <direction placement="below">
         <direction-type>
           <wedge type="stop" />
@@ -2296,7 +2294,7 @@
         <type>half</type>
       </note>
     </measure>
-    <measure number="48">
+    <measure number="47">
       <print new-system="yes" />
       <note>
         <pitch>
@@ -2374,7 +2372,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="49">
+    <measure number="48">
       <direction placement="below">
         <direction-type>
           <wedge type="stop" />
@@ -2406,7 +2404,7 @@
         </notations>
       </note>
     </measure>
-    <measure number="50">
+    <measure number="49">
       <note>
         <pitch>
           <step>G</step>
@@ -2483,7 +2481,7 @@
         <beam number="1">end</beam>
       </note>
     </measure>
-    <measure number="51">
+    <measure number="50">
       <direction placement="below">
         <direction-type>
           <wedge type="stop" />
@@ -2519,7 +2517,7 @@
         <type>half</type>
       </note>
     </measure>
-    <measure number="52">
+    <measure number="51">
       <note>
         <pitch>
           <step>G</step>
