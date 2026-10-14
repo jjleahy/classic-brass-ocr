@@ -1,0 +1,26 @@
+X:1
+T:1.
+Q:"Allegro moderato."
+M:C
+L:1/16
+K:C clef=treble
+!>!(C B, C) .E .G .c .e .g !>!(C B, C) .E .G .c .e .g | !>!(f g) .e .f .d .e .c .d !>!(B c) .A .B .G .F .E .D | !>!(C B, C) .E .G .c .e .g !>!(C B, C) .E .G .c .e .g |
+!>!(f g) .e .f .d .e .c .d !>!(B c) .A .B .G .F .E .D | !breath!.C2 .C .E .G .c .e .d !trill!(^c8 {Bc} | d) ^C D F .A .d .f .e !trill!(^d8 {^cd} | e) (E ^D E) .G .c .e .g .f !>!(^C =D) .F ._A .B .d .f |
+.e (C B, C) .E .G .c .e .d (B, D) .F ._A .B (e d) | .c (C B, C) .E .G .c .e .d (B, D) .F ._A .B (e d) | (c C) .E .G .c .e .g .C (B, D) .F .G .B .d .f .A |
+(c C) .E .G .c .e .g .C (B, D) .F .G .B .d .f .B | .c .g .e .c .G .c .G .E !fine!C4 z4 |] (3(f g f (3e f e (3d e d (3c d c (3B c B (3A B A (3G A G (3F G F) |
+(3(E C) .E (3(G E) .G (3(c G) .c (3(e c) .e (6:4:6(g ^f g a g =f (6:4:6e d c B A G) | (3(f g f (3e f e (3d e d (3c d c (3B c B (3A B A (3G A G (3F G F) | (3(E C) .E (3(G E) .G (3(c G) .c (3(e c) .e g4 z2 (3(.G ^F G) |
+.f (G e) (G d) (G ^c) (G d) (G ^F G A G F G) | .e (G d) (G c) (G B) (G c) (G ^F G _A G F G) | .f (G _e) (G d) (G ^c) (G d) (G ^F G) e (G d) (G | c2) ._E .G (c B c) ._e d4- d !breath!.B .c .d |
+(_e d e) .c .G ._E .C .E .G (C B, C) .E .G .c .e | (g ^f g) ._e ._B .G ._E .G ._B, .D .=F .B .d .f ._b ._a | .g (_E G) ._B ._e .g ._b .g .f (_B, D) .F .B .d .g .f | ._e .g .e ._B .G .e .B .G _E4 z4 ||
+% a courtesy key signature of three flats is printed after the double bar at the end of the previous system, and again at the start of this one
+[K:Eb] (e4- e2 d) c (G ^F G) .=A .=B .c .d .e | (g b g ^f g =f) .d .B .G2 .^F .G .=A .B .c .d | (e4- e2 d) c !turn!G2 =A2 !turn!=B2 c2 | .d (G ^F G F G) .=A .d g4 z2 .d2 |
+% bar 3: turn sign below the staff between G and A (with sharp below it), turn sign above the staff between B and C (with natural below it)
+d4- d .c .=A .^F (D ^F) .=A .c (^f _e) .d .c | B4- B .G .D .B, (G, G) .G .B | .=A .^C .D .^F .A .^c .d .^f (=b g) .^f ._e (e d) (d =c) | !breath!.B2 .G, .B, .D .G .B .d .g2 .G, .B, .D .G .B .d | % ? bar 2 adds up to only 3 beats as read; second group G, G G B read as printed
+% after the double bar the three flats are cancelled by naturals and a key signature of two sharps follows
+^c ^C .=E .G .B .c .=e .g (c' g) .e .c .B .G .E .C | .D2 (^C D ^C D) .^F .=A d4 z2 .d2 || [K:D] .c2 .A, .C .E .A .c .e .g (e ^d e) (a2 g2) | .f2 .A, .D .F .A .d .f .a2 .F .A .d (f e) .c |
+% ? bar 1: no accidental is printed before C6 or the later C5/C4 (sharp implied by the harmony); an unexplained slur-like arc below the first C4
+.c2 .A, .C .E .A .c .e .g (e ^d e) (a2 g2) | .f (d c d) (f d) .A .F D4 !breath!(d3 =c) || [K:G] (B c B ^A) .B (G F G) .D (F G) .B (d3 c) | (B c B ^A) .B (G F G) .D (F G) .B (e3 d) |
+% after the double bar the C sharp is cancelled by a natural and a key signature of one sharp follows
+(c A) .F .D .B, .G, .E, .A, .B, .D .F .A .c (f ^e f) | .f (^e ^^d e) e (=e ^d e) e (^d ^^c d) (d =d) (d =c) | (B c B ^A) .B (G F G) .D (F G) .B (d3 c) | (B c B ^A) .B (G F G) .D (F G) .B (e3 d) |
+% ? bar 2: chromatic turn figures with a double sharp (D, C); a dot follows the third note of the last group, read as a stray dot (the bar adds up as four sixteenth groups); slur extents uncertain
+.c (f ^e f) .A (=e ^d e) .F (=d ^c d) (D F) .A .d | (G F G) .B (d G .B) .d g4 z4 | (G F G) .c (e G .c) .e a4 z4 | (G F G) .B (d G .B) .d ("_rall."g =f) .d .B .G .=F .D "_D. C."B, ||
+% a courtesy natural sign (cancelling the F sharp) is printed after the final double bar
