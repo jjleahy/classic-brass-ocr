@@ -1152,6 +1152,12 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <beam number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <slur number="1" type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -1162,6 +1168,9 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -1172,6 +1181,11 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -2557,12 +2571,6 @@
           </articulations>
         </notations>
       </note>
-      <direction placement="above">
-        <direction-type>
-          <words>Fine</words>
-        </direction-type>
-        <sound fine="yes" />
-      </direction>
       <note>
         <pitch>
           <step>C</step>
@@ -2572,6 +2580,11 @@
         <voice>1</voice>
         <type>quarter</type>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <words>Fine.</words>
+        </direction-type>
+      </direction>
       <note>
         <rest />
         <duration>120</duration>
@@ -2579,7 +2592,7 @@
         <type>quarter</type>
       </note>
       <barline location="right">
-        <bar-style>light-heavy</bar-style>
+        <bar-style>light-light</bar-style>
       </barline>
     </measure>
     <measure number="13">
@@ -3999,25 +4012,20 @@
       </note>
       <note>
         <rest />
-        <duration>60</duration>
+        <duration>30</duration>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
       </note>
       <note>
         <pitch>
           <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>20</duration>
+        <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-        </time-modification>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes" />
           <articulations>
             <staccato />
           </articulations>
@@ -4030,14 +4038,10 @@
           <alter>1</alter>
           <octave>4</octave>
         </pitch>
-        <duration>20</duration>
+        <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-        </time-modification>
         <beam number="1">continue</beam>
       </note>
       <note>
@@ -4045,16 +4049,11 @@
           <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>20</duration>
+        <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-        </time-modification>
         <beam number="1">end</beam>
         <notations>
-          <tuplet type="stop" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -4801,6 +4800,9 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
         </notations>
       </note>
       <note>
@@ -4813,9 +4815,6 @@
         <type>16th</type>
         <beam number="1">continue</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
           <articulations>
             <staccato />
           </articulations>
@@ -5926,7 +5925,7 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
+          <step>A</step>
           <alter>-1</alter>
           <octave>5</octave>
         </pitch>
@@ -6000,12 +5999,13 @@
       <note>
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
+          <alter>0</alter>
           <octave>4</octave>
         </pitch>
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
+        <accidental>natural</accidental>
         <beam number="1">end</beam>
         <notations>
           <articulations>
@@ -6080,7 +6080,7 @@
       <note>
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
+          <alter>0</alter>
           <octave>4</octave>
         </pitch>
         <duration>30</duration>
@@ -6178,6 +6178,11 @@
         <type>16th</type>
         <beam number="1">end</beam>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <words>♯</words>
+        </direction-type>
+      </direction>
       <note>
         <pitch>
           <step>G</step>
@@ -6205,6 +6210,11 @@
         <accidental>natural</accidental>
         <beam number="1">end</beam>
       </note>
+      <direction placement="above">
+        <direction-type>
+          <words>♮</words>
+        </direction-type>
+      </direction>
       <note>
         <pitch>
           <step>B</step>
@@ -6310,7 +6320,7 @@
       </note>
       <note>
         <pitch>
-          <step>A</step>
+          <step>B</step>
           <alter>0</alter>
           <octave>4</octave>
         </pitch>
@@ -6470,7 +6480,6 @@
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental>sharp</accidental>
         <beam number="1">continue</beam>
         <notations>
           <slur number="1" type="stop" />
@@ -6485,7 +6494,6 @@
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental>natural</accidental>
         <beam number="1">continue</beam>
         <notations>
           <articulations>
@@ -6650,9 +6658,9 @@
           <step>G</step>
           <octave>3</octave>
         </pitch>
-        <duration>30</duration>
+        <duration>60</duration>
         <voice>1</voice>
-        <type>16th</type>
+        <type>eighth</type>
         <beam number="1">begin</beam>
         <notations>
           <slur number="1" type="start" />
@@ -6663,10 +6671,10 @@
           <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>30</duration>
+        <duration>60</duration>
         <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
+        <type>eighth</type>
+        <beam number="1">end</beam>
         <notations>
           <slur number="1" type="stop" />
         </notations>
@@ -6676,10 +6684,10 @@
           <step>G</step>
           <octave>4</octave>
         </pitch>
-        <duration>30</duration>
+        <duration>60</duration>
         <voice>1</voice>
-        <type>16th</type>
-        <beam number="1">continue</beam>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
         <notations>
           <articulations>
             <staccato />
@@ -6692,9 +6700,9 @@
           <alter>-1</alter>
           <octave>4</octave>
         </pitch>
-        <duration>30</duration>
+        <duration>60</duration>
         <voice>1</voice>
-        <type>16th</type>
+        <type>eighth</type>
         <beam number="1">end</beam>
         <notations>
           <articulations>
@@ -6736,6 +6744,7 @@
           <articulations>
             <staccato />
           </articulations>
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -6751,6 +6760,7 @@
           <articulations>
             <staccato />
           </articulations>
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -6801,6 +6811,7 @@
           <articulations>
             <staccato />
           </articulations>
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -6816,6 +6827,7 @@
           <articulations>
             <staccato />
           </articulations>
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -7186,6 +7198,9 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <beam number="1">begin</beam>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -7198,6 +7213,9 @@
         <type>16th</type>
         <accidental>sharp</accidental>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -7297,8 +7315,9 @@
       </note>
       <note>
         <pitch>
-          <step>C</step>
-          <octave>6</octave>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>5</octave>
         </pitch>
         <duration>30</duration>
         <voice>1</voice>
@@ -7467,7 +7486,6 @@
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental>sharp</accidental>
         <beam number="1">begin</beam>
       </note>
       <note>
@@ -7723,9 +7741,10 @@
           <step>A</step>
           <octave>5</octave>
         </pitch>
-        <duration>60</duration>
+        <duration>90</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <dot />
         <beam number="1">begin</beam>
         <notations>
           <slur number="1" type="start" />
@@ -7736,9 +7755,9 @@
           <step>G</step>
           <octave>5</octave>
         </pitch>
-        <duration>60</duration>
+        <duration>30</duration>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
         <beam number="1">end</beam>
         <notations>
           <slur number="1" type="stop" />
@@ -7944,8 +7963,7 @@
       </note>
       <note>
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
+          <step>D</step>
           <octave>5</octave>
         </pitch>
         <duration>30</duration>
@@ -8127,9 +8145,10 @@
           <step>A</step>
           <octave>5</octave>
         </pitch>
-        <duration>60</duration>
+        <duration>90</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <dot />
         <beam number="1">begin</beam>
         <notations>
           <slur number="1" type="start" />
@@ -8140,9 +8159,9 @@
           <step>G</step>
           <octave>5</octave>
         </pitch>
-        <duration>60</duration>
+        <duration>30</duration>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
         <beam number="1">end</beam>
         <notations>
           <slur number="1" type="stop" />
@@ -8269,6 +8288,11 @@
         <duration>120</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <notations>
+          <articulations>
+            <breath-mark />
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -8281,9 +8305,6 @@
         <dot />
         <beam number="1">begin</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
           <slur number="1" type="start" />
         </notations>
       </note>
@@ -8745,8 +8766,8 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>C</step>
+          <octave>4</octave>
         </pitch>
         <duration>30</duration>
         <voice>1</voice>
@@ -8760,7 +8781,7 @@
       </note>
       <note>
         <pitch>
-          <step>G</step>
+          <step>A</step>
           <octave>3</octave>
         </pitch>
         <duration>30</duration>
@@ -8775,7 +8796,8 @@
       </note>
       <note>
         <pitch>
-          <step>E</step>
+          <step>F</step>
+          <alter>1</alter>
           <octave>3</octave>
         </pitch>
         <duration>30</duration>
@@ -8805,8 +8827,8 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <octave>3</octave>
+          <step>C</step>
+          <octave>4</octave>
         </pitch>
         <duration>30</duration>
         <voice>1</voice>
@@ -9117,9 +9139,10 @@
           <alter>0</alter>
           <octave>5</octave>
         </pitch>
-        <duration>30</duration>
+        <duration>45</duration>
         <voice>1</voice>
         <type>16th</type>
+        <dot />
         <beam number="1">continue</beam>
         <notations>
           <slur number="1" type="start" />
@@ -9131,9 +9154,9 @@
           <alter>0</alter>
           <octave>5</octave>
         </pitch>
-        <duration>30</duration>
+        <duration>15</duration>
         <voice>1</voice>
-        <type>16th</type>
+        <type>32nd</type>
         <accidental>natural</accidental>
         <beam number="1">end</beam>
         <notations>
@@ -9817,6 +9840,9 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -9831,7 +9857,6 @@
           <articulations>
             <staccato />
           </articulations>
-          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -9940,6 +9965,9 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -9954,7 +9982,6 @@
           <articulations>
             <staccato />
           </articulations>
-          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -10063,6 +10090,9 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -10077,7 +10107,6 @@
           <articulations>
             <staccato />
           </articulations>
-          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
