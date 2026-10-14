@@ -2340,7 +2340,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">begin</beam>
+        <beam number="1">begin</beam><beam number="2">begin</beam>
       </note>
       <note>
         <grace />
@@ -2351,7 +2351,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">end</beam>
+        <beam number="1">end</beam><beam number="2">end</beam>
       </note>
       <note>
         <pitch>
@@ -2429,7 +2429,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">begin</beam>
+        <beam number="1">begin</beam><beam number="2">begin</beam>
       </note>
       <note>
         <grace />
@@ -2440,7 +2440,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">end</beam>
+        <beam number="1">end</beam><beam number="2">end</beam>
       </note>
       <note>
         <pitch>
@@ -2956,7 +2956,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">begin</beam>
+        <beam number="1">begin</beam><beam number="2">begin</beam>
       </note>
       <note>
         <grace />
@@ -2967,7 +2967,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">end</beam>
+        <beam number="1">end</beam><beam number="2">end</beam>
       </note>
       <note>
         <pitch>
@@ -3076,7 +3076,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">begin</beam>
+        <beam number="1">begin</beam><beam number="2">begin</beam>
       </note>
       <note>
         <grace />
@@ -3087,7 +3087,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">end</beam>
+        <beam number="1">end</beam><beam number="2">end</beam>
       </note>
       <note>
         <pitch>
@@ -4289,7 +4289,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">begin</beam>
+        <beam number="1">begin</beam><beam number="2">begin</beam>
       </note>
       <note>
         <grace />
@@ -4300,7 +4300,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">continue</beam>
+        <beam number="1">continue</beam><beam number="2">continue</beam>
       </note>
       <note>
         <grace />
@@ -4311,7 +4311,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">continue</beam>
+        <beam number="1">continue</beam><beam number="2">continue</beam>
       </note>
       <note>
         <grace />
@@ -4322,7 +4322,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">end</beam>
+        <beam number="1">end</beam><beam number="2">end</beam>
       </note>
       <note>
         <pitch>
@@ -6761,7 +6761,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">begin</beam>
+        <beam number="1">begin</beam><beam number="2">begin</beam>
       </note>
       <note>
         <grace />
@@ -6771,7 +6771,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">end</beam>
+        <beam number="1">end</beam><beam number="2">end</beam>
       </note>
       <note>
         <pitch>
@@ -6792,7 +6792,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">begin</beam>
+        <beam number="1">begin</beam><beam number="2">begin</beam>
       </note>
       <note>
         <grace />
@@ -6802,7 +6802,7 @@
         </pitch>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="2">end</beam>
+        <beam number="1">end</beam><beam number="2">end</beam>
       </note>
       <direction placement="below">
         <direction-type>
