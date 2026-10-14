@@ -3437,6 +3437,7 @@
         <type>half</type>
         <notations>
           <tied type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -3449,7 +3450,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <dot />
-        <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
         </notations>
@@ -3462,7 +3462,7 @@
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
       </note>
       <note>
         <grace />
@@ -3525,6 +3525,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">end</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
     </measure>
     <measure number="40">
@@ -3536,6 +3539,9 @@
         <duration>120</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -3546,6 +3552,12 @@
         <duration>240</duration>
         <voice>1</voice>
         <type>half</type>
+        <notations>
+          <articulations>
+            <breath-mark />
+          </articulations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -3558,9 +3570,8 @@
         <type>quarter</type>
         <accidental>flat</accidental>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
+          <slur number="1" type="start" />
+          <slur number="2" type="start" />
         </notations>
       </note>
     </measure>
@@ -3573,6 +3584,9 @@
         <duration>120</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -3623,6 +3637,12 @@
         <duration>120</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <notations>
+          <articulations>
+            <breath-mark />
+          </articulations>
+          <slur number="1" type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -3635,9 +3655,7 @@
         <type>quarter</type>
         <notations>
           <tied type="start" />
-          <articulations>
-            <breath-mark />
-          </articulations>
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -3715,6 +3733,7 @@
       </barline>
     </measure>
     <measure number="43">
+      <print new-system="yes" />
       <attributes>
         <key>
           <fifths>0</fifths>
@@ -3732,7 +3751,6 @@
         <type>half</type>
         <notations>
           <tied type="start" />
-          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -3752,6 +3770,9 @@
         <notations>
           <tuplet type="start" bracket="yes" />
           <tied type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -3769,9 +3790,6 @@
         </time-modification>
         <beam number="1">continue</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
           <slur number="1" type="start" />
         </notations>
       </note>
@@ -3842,7 +3860,6 @@
       </note>
     </measure>
     <measure number="44">
-      <print new-system="yes" />
       <note>
         <pitch>
           <step>A</step>
@@ -3979,7 +3996,7 @@
       <note>
         <pitch>
           <step>C</step>
-          <octave>4</octave>
+          <octave>3</octave>
         </pitch>
         <duration>240</duration>
         <voice>1</voice>
@@ -4129,7 +4146,6 @@
         <type>quarter</type>
         <notations>
           <tied type="start" />
-          <slur number="2" type="start" />
         </notations>
       </note>
       <note>
@@ -4193,7 +4209,10 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -4205,10 +4224,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
     </measure>
@@ -4295,7 +4311,7 @@
       </note>
       <note>
         <pitch>
-          <step>D</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>40</duration>
@@ -4335,7 +4351,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -4387,6 +4403,9 @@
         <dot />
         <notations>
           <tied type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
         </notations>
       </note>
       <direction placement="below">
@@ -4406,10 +4425,7 @@
         <type>half</type>
         <dot />
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -4441,9 +4457,6 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">end</beam>
-        <notations>
-          <slur number="2" type="stop" />
-        </notations>
       </note>
     </measure>
     <measure number="52">
@@ -4456,9 +4469,6 @@
         <duration>240</duration>
         <voice>1</voice>
         <type>half</type>
-        <notations>
-          <slur number="2" type="start" />
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4469,7 +4479,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -4490,7 +4500,7 @@
         <type>16th</type>
         <beam number="1">begin</beam>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -4708,7 +4718,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -4729,7 +4739,7 @@
         <type>half</type>
         <dot />
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -4784,7 +4794,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -4805,7 +4815,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -4982,7 +4992,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -5004,7 +5014,7 @@
         <type>half</type>
         <notations>
           <tied type="start" />
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -5111,7 +5121,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -5134,7 +5144,7 @@
         <type>half</type>
         <notations>
           <tied type="start" />
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -5164,13 +5174,13 @@
       <note>
         <pitch>
           <step>F</step>
-          <alter>0</alter>
+          <alter>1</alter>
           <octave>3</octave>
         </pitch>
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <accidental>natural</accidental>
+        <accidental>sharp</accidental>
         <beam number="1">continue</beam>
       </note>
       <note>
@@ -5292,7 +5302,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -5314,7 +5324,7 @@
         <type>half</type>
         <notations>
           <tied type="start" />
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -5392,9 +5402,6 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">end</beam>
-        <notations>
-          <slur number="2" type="stop" />
-        </notations>
       </note>
     </measure>
     <measure number="64">
@@ -5410,7 +5417,6 @@
         <type>quarter</type>
         <notations>
           <tied type="start" />
-          <slur number="2" type="start" />
         </notations>
       </note>
       <note>
@@ -5481,10 +5487,12 @@
         <tie type="stop" />
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
-          <slur number="2" type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -5495,12 +5503,9 @@
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -5591,7 +5596,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -5606,7 +5611,7 @@
           <articulations>
             <accent />
           </articulations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -5651,7 +5656,7 @@
         <voice>1</voice>
         <type>half</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -5672,7 +5677,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="start" />
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -5718,9 +5723,6 @@
         <voice>1</voice>
         <type>32nd</type>
         <beam number="1">end</beam>
-        <notations>
-          <slur number="2" type="stop" />
-        </notations>
       </note>
     </measure>
     <measure number="67">
@@ -5736,7 +5738,6 @@
         <type>half</type>
         <notations>
           <tied type="start" />
-          <slur number="2" type="start" />
         </notations>
       </note>
       <note>
@@ -5807,10 +5808,12 @@
         <tie type="stop" />
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
-          <slur number="2" type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -5821,12 +5824,9 @@
         <duration>30</duration>
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -6023,7 +6023,7 @@
         <type>eighth</type>
         <beam number="1">begin</beam>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -6036,7 +6036,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <accidental>sharp</accidental>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <articulations>
             <tenuto />
@@ -6053,7 +6053,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <notations>
           <articulations>
             <tenuto />
@@ -6108,7 +6108,7 @@
         <type>16th</type>
         <beam number="1">begin</beam>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -6130,7 +6130,7 @@
         <tie type="start" />
         <voice>1</voice>
         <type>eighth</type>
-        <beam number="1">continue</beam>
+        <beam number="1">end</beam>
         <notations>
           <tied type="start" />
         </notations>
@@ -6144,7 +6144,7 @@
         <tie type="stop" />
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
         </notations>
@@ -6211,7 +6211,7 @@
         <type>eighth</type>
         <beam number="1">end</beam>
         <notations>
-          <slur number="3" type="start" />
+          <slur number="2" type="start" />
         </notations>
       </note>
       <note>
@@ -6224,7 +6224,7 @@
         <type>16th</type>
         <beam number="1">begin</beam>
         <notations>
-          <slur number="3" type="stop" />
+          <slur number="2" type="stop" />
         </notations>
       </note>
       <note>
@@ -6290,7 +6290,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
-        <beam number="1">continue</beam>
+        <beam number="1">end</beam>
         <notations>
           <tied type="start" />
         </notations>
@@ -6305,7 +6305,7 @@
         <tie type="stop" />
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
         </notations>
@@ -6372,7 +6372,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -6391,7 +6391,7 @@
         <type>16th</type>
         <beam number="1">begin</beam>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -6413,7 +6413,7 @@
         <tie type="start" />
         <voice>1</voice>
         <type>eighth</type>
-        <beam number="1">continue</beam>
+        <beam number="1">end</beam>
         <notations>
           <tied type="start" />
         </notations>
@@ -6427,7 +6427,7 @@
         <tie type="stop" />
         <voice>1</voice>
         <type>16th</type>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
         </notations>
@@ -6461,9 +6461,6 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">end</beam>
-        <notations>
-          <slur number="2" type="stop" />
-        </notations>
       </note>
     </measure>
     <measure number="73">
@@ -6477,9 +6474,6 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">begin</beam>
-        <notations>
-          <slur number="2" type="start" />
-        </notations>
       </note>
       <note>
         <pitch>
@@ -6505,6 +6499,11 @@
           <tied type="start" />
         </notations>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <words>rallent.</words>
+        </direction-type>
+      </direction>
       <note>
         <pitch>
           <step>E</step>
@@ -6517,6 +6516,9 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
         </notations>
       </note>
       <note>
@@ -6528,11 +6530,6 @@
         <voice>1</voice>
         <type>16th</type>
         <beam number="1">continue</beam>
-        <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -6638,6 +6635,21 @@
       </note>
     </measure>
     <measure number="74">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <articulations>
+            <breath-mark />
+          </articulations>
+          <slur number="1" type="stop" />
+        </notations>
+      </note>
       <direction placement="above">
         <direction-type>
           <words>lento</words>
@@ -6646,22 +6658,15 @@
       <note>
         <pitch>
           <step>C</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>60</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <beam number="1">begin</beam>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <beam number="1">end</beam>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -6671,7 +6676,7 @@
         <duration>60</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
       </note>
       <note>
         <pitch>
@@ -6705,7 +6710,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <accidental>flat</accidental>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
       </note>
       <note>
         <pitch>
@@ -6715,7 +6720,7 @@
         <duration>60</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
       </note>
       <note>
         <pitch>
@@ -6771,6 +6776,7 @@
         <dot />
         <notations>
           <tied type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <direction placement="below">
