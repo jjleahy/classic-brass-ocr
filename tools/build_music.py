@@ -51,6 +51,20 @@ def restore_time_symbols(score, tune_text: str) -> str:
     return ""
 
 
+def beam_grace_notes(score) -> None:
+    """Give beamed runs of grace notes their primary beam.
+
+    abc2xml writes only the secondary beam (number 2) for them, which engravers leave unbeamed."""
+    for note in score.iter("note"):
+        if note.find("grace") is None:
+            continue
+        beams = note.findall("beam")
+        if beams and not any(b.get("number") == "1" for b in beams):
+            first = ET.Element("beam", number="1")
+            first.text = beams[0].text
+            note.insert(list(note).index(beams[0]), first)
+
+
 def convert_tune(tune_text: str) -> tuple[str, str]:
     """Return (musicxml text, abc2xml diagnostics) for one tune."""
     abc2xml.getInfo()  # clear old messages
@@ -63,6 +77,7 @@ def convert_tune(tune_text: str) -> tuple[str, str]:
         for el in list(enc):
             if el.tag == "encoding-date":
                 enc.remove(el)
+    beam_grace_notes(score)
     warning = restore_time_symbols(score, tune_text)
     if warning:
         messages += f"-- {warning}\n"
