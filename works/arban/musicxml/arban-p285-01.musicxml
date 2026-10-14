@@ -6178,9 +6178,9 @@
         <type>16th</type>
         <beam number="1">end</beam>
       </note>
-      <direction placement="below">
+      <direction placement="above">
         <direction-type>
-          <words>♯</words>
+          <words>(F♯)</words>
         </direction-type>
       </direction>
       <note>
@@ -6212,7 +6212,7 @@
       </note>
       <direction placement="above">
         <direction-type>
-          <words>♮</words>
+          <words>(A♮)</words>
         </direction-type>
       </direction>
       <note>

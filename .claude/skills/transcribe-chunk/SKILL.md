@@ -39,7 +39,8 @@ Work through one page at a time. Images are expensive: render and read only what
    scan tiles **system by system**:
    - the clef, key and time signature, and the octave after every clef change
    - the number of bars per system
-   - pitches and accidentals
+   - pitches and accidentals (for notes on ledger lines, if unsure, guess closer to the staff
+     than farther: high notes tend to be read too high and low notes too low)
    - rhythms (each bar must add up)
    - ties and slurs
    - dynamics, hairpins, articulations and text

@@ -223,6 +223,11 @@ The first line of music is the first printed system; the second line is the seco
 real pitch. For example, the G on the top space of the bass staff is `G,`. Check this in the
 proof every time.
 
+**Notes on ledger lines.** These are the easiest pitches to misread: high notes tend to be
+read too high and low notes too low, partly because the original printing is often tightly
+spaced. If you are unsure of a ledger-line note, guess the pitch **closer to the staff**, and
+check it again against the scan in the proof.
+
 ### Layout
 
 - **One ABC line per printed system.** Never use `\` to continue a line.

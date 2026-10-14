@@ -12,8 +12,8 @@ K:C clef=treble
 .f(Ge)(G d)(G^c)(G d)(G^FG AGFG) | .e(Gd)(G c)(GB)(G c)(G^FG _AGFG) | .f(G_e)(G d)(G^c)(G d)(G^FG) e(Gd)(G | c2)._E.G (cBc)._e d4- !breath!d.B.c.d |
 (_ede).c .G._E.C.E .G(CB,C) .E.G.c.e | (g^fg)._e ._B.G._E.G ._B,.D.=F.B .d.f._b._a | .g(_EG)._B ._e.g._b.g .f(_B,D).F .B.d.g.f | ._e.g.e._B .G.e.B.G _E4 z4 ||
 % a courtesy key signature of three flats is printed after the double bar at the end of the previous system, and again at the start of this one
-[K:Eb] (e4- e2d)c (G^FG).=A .=B.c.d.e | (gag^f g=f).d.=B .G2.^F.G .=A.B.c.d | (e4- e2d)c "_♯"!turn!G2=A2 "^♮"!turn!=B2c2 | .d(G^FG FG).=B.d g4 z2 .d2 |
-% bar 3: turn sign below the staff between G and A with a sharp below it, and a turn sign above the staff between B and C with a natural below it; ABC cannot attach an accidental to a turn, so the accidentals are text annotations
+[K:Eb] (e4- e2d)c (G^FG).=A .=B.c.d.e | (gag^f g=f).d.=B .G2.^F.G .=A.B.c.d | (e4- e2d)c "^(F♯)"!turn!G2=A2 "^(A♮)"!turn!=B2c2 | .d(G^FG FG).=B.d g4 z2 .d2 |
+% bar 3: a turn sign below the staff between G and A with a sharp beneath it, and a turn sign above the staff between B and C with a natural beneath it; ABC cannot attach an accidental to a turn, so they are written as the text annotations (F♯) and (A♮) above the turns
 d4- d.c.=A.^F (DF).A.c (^f_e).d.c | B4- B.G.D.B, (G,2G2) .G2.B2 | .=A(.^C.D).^F .A(.^c.d).^f (=bg).^f._e (ed)(d=c) | !breath!.B2.G,.B, .D.G.B.d .g2.G,.B, .D.G.B.d |
 % after the double bar the three flats are cancelled by naturals and a key signature of two sharps follows
 (^c^C).=E.G .B.c.=e.g (bg).e.c .B.G.E.C | .D2(^CD CD).^F.=A d4 z2 .d2 || [K:D] .c2.A,.C .E.A.c.e .g(e^de) (a3g) | .f2.A,.D .F.A.d.f .a2.F.A .d(fe).d |
