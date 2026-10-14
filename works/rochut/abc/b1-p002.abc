@@ -23,7 +23,7 @@ z2 z2 !p!(C,2 | A,4 C2 | F,4 A,2 | G,4 C2 | A,2 F,) z (C,3/2F,/ |
 % -- page b1-p003 --
 A,4 C2 | F,4 A,2 | G,2 C4 | F,4) (F,2 | D,E,F,G, A,3/2G,/ | G,2 E2) (C2 |
 =B,A,G,F,E,D, | E,2 C,) z (F,3/2E,/ | "_cresc."D,E,F,G,A,=B, | !breath!C) (DE=B,CA, |
-G,^F,=F,E,D,G, | !f!!fermata!C,4) (!p!C,3/2F,/ | A,4 {/D}C2 | F,4) ({/B,}A,2 | G,4 C2 | A,2 F,) z (C,3/2F,/ |
+G,^F,=F,E,D,G, | !f!!fermata!C,4) (!p!C,3/2F,/ | A,4 {/D}C2 | F,4) ('{/B,}A,2 | G,4 C2 | A,2 F,) z (C,3/2F,/ |
 A,4 {B,A,G,A,}C3/2A,/ | F,) (A,G,F,E,D, | C,C=B,_B,G,A, | F,2) z2 !fermata!z2 | !f!(G,3/2A,/ G,2 E,2 |
 G,3/2A,/ G,2 E,2) | (G,F,E,D,C,D, | E,4 C,) z | (G,3/2A,/ G,2 E,2 | G,3/2A,/ G,2 C2) |
 (=B,A,G,F,E,D, | C,4) (!p!C2 | _B,CG,CDC | A,CF,A,CF) |

@@ -806,7 +806,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <notations>
-          <slur number="1" type="start" />
+          <slur number="1" type="start" placement="above" />
         </notations>
       </note>
       <note>
