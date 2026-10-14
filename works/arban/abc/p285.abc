@@ -1,0 +1,25 @@
+X:1
+T:1.
+Q:"Allegro moderato."
+M:C
+L:1/16
+K:C clef=treble
+!>!(CB,C).E .G.c.e.g !>!(CB,C).E .G.c.e.g | !>!(fg).e.f .d.e.c.d !>!(Bc).A.B .G.F.E.D | !>!(CB,C).E .G.c.e.g !>!(CB,C).E .G.c.e.g |
+!>!(fg).e.f .d.e.c.d !>!(Bc).A.B .G.F.E.D | !breath!.C2.C.E .G.c.e.d !trill!(^c8 {Bc} | d)!>!(^CD).F .A.d.f.e !trill!(^d8 {^cd} | e)(E^DE) .G.c.e.g .f!>!(^C=D).F ._A.B.d.f |
+.e(CB,C) .E.G.c.e .d(B,D).F ._A.B(ed) | .c(CB,C) .E.G.c.e .d(B,D).F ._A.B(ed) | (cC).E.G .c.e.g.C (B,D).F.G .B.d.f.A |
+(cC).E.G .c.e.g.C (B,D).F.G .B.d.f.B | .c.g.e.c .G.c.G.E C4 "_Fine."z4 || (3(fgf (3efe (3ded (3cdc (3BcB (3ABA (3GAG (3FGF) |
+(3(EC).E (3(GE).G (3(cG).c (3(ec).e (6:4:6(g^fgag=f (6:4:6edcBAG) | (3(fgf (3efe (3ded (3cdc (3BcB (3ABA (3GAG (3FGF) | (3(EC).E (3(GE).G (3(cG).c (3(ec).e g4 z (.G^FG) |
+.f(Ge)(G d)(G^c)(G d)(G^FG AGFG) | .e(Gd)(G c)(GB)(G c)(G^FG _AGFG) | .f(G_e)(G d)(G^c)(G d)(G^FG) e(Gd)(G | c2)._E.G (cBc)._e d4- !breath!d.B.c.d |
+(_ede).c .G._E.C.E .G(CB,C) .E.G.c.e | (g^fg)._e ._B.G._E.G ._B,.D.=F.B .d.f._b._a | .g(_EG)._B ._e.g._b.g .f(_B,D).F .B.d.g.f | ._e.g.e._B .G.e.B.G _E4 z4 ||
+% a courtesy key signature of three flats is printed after the double bar at the end of the previous system, and again at the start of this one
+[K:Eb] (e4- e2d)c (G^FG).=A .=B.c.d.e | (gag^f g=f).d.=B .G2.^F.G .=A.B.c.d | (e4- e2d)c "^(F♯)"!turn!G2=A2 "^(A♮)"!turn!=B2c2 | .d(G^FG FG).=B.d g4 z2 .d2 |
+% bar 3: a turn sign below the staff between G and A with a sharp beneath it, and a turn sign above the staff between B and C with a natural beneath it; ABC cannot attach an accidental to a turn, so they are written as the text annotations (F♯) and (A♮) above the turns
+d4- d.c.=A.^F (DF).A.c (^f_e).d.c | B4- B.G.D.B, (G,2G2) .G2.B2 | .=A(.^C.D).^F .A(.^c.d).^f (=bg).^f._e (ed)(d=c) | !breath!.B2.G,.B, .D.G.B.d .g2.G,.B, .D.G.B.d |
+% after the double bar the three flats are cancelled by naturals and a key signature of two sharps follows
+(^c^C).=E.G .B.c.=e.g (bg).e.c .B.G.E.C | .D2(^CD CD).^F.=A d4 z2 .d2 || [K:D] .c2.A,.C .E.A.c.e .g(e^de) (a3g) | .f2.A,.D .F.A.d.f .a2.F.A .d(fe).d |
+% no accidental is printed before the later C5 and C4 in bar 1 (the sharp is implied by the harmony)
+.c2.A,.C .E.A.c.e .g(e^de) (a3g) | .f(dcd) (fd).A.F !breath!D4 (d3=c) || [K:G] (BcB^A) .B(GFG) .D(FG).B (d3c) | (BcB^A) .B(GFG) .D(FG).B (e3d) |
+% after the double bar the C sharp is cancelled by a natural and a key signature of one sharp follows
+(cA).F.D .C.A,.F,.A, .C.D.F.A .c(f^ef) | .f(^e^^de) e(=e^de) e(^d^^cd) (d=d)(d3/2=c/2) | (BcB^A) .B(GFG) .D(FG).B (d3c) | (BcB^A) .B(GFG) .D(FG).B (e3d) |
+.c(f^ef) .A(=e^de) .F(=d^cd) (DF).A.d | (GFG).B (dG).B.d g4 z4 | (GFG).c (eG).c.e a4 z4 | (GFG).B (dG).B.d ("_rall."g=f).d.B .G.=F.D"_D. C."B, ||
+% a courtesy natural sign (cancelling the F sharp) is printed after the final double bar
