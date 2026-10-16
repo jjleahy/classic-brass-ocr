@@ -1,0 +1,19 @@
+X:1
+T:No. 5
+Q:"Allegro" 1/4=96
+% no time signature is printed (the bars hold four beats)
+M:none
+L:1/8
+K:C clef=bass
+!p!(G,4 E,2 A,2 | G,4 E,2) (C2 | B,4 D2 G,2 | E4 C2) z2 | !p!(G,4 E,2 A,2 | % ? bar 4: first note read as a half note (E4 on two ledger lines; the notehead is hard to judge)
+G,4 E,2) (C2 | B,2 D2 A,2 D2 | G,4) z2 (G,2 | !<(!^F,1G,1 D4 G,2 | ^F,1G,1 E4) !<)!(G,2 | GFDB, G,^G,A,F, |
+!<(!E,3/2F,/G,3/2E,/!<)! C,1) z1 !p!(G,2 | A,4) !<(!(A,3/2B,/C3/2D/!<)! | E4)- E1!breath!(D1A,1!>!D1)- | D1(C1G,1!>!C1)- C1(B,1A,1G,1 |
+G4)- (GFED | FEDC EDCB, | C4) z4 | !p!(A,4 E,2 F,1G,/F,/ | E,4 C,1) z1 (A,2 |
+^G,2 E,2 A,2 E,2 | B,3 C1 B,2) z2 | (A,4 E,2 F,1G,/F,/ | E,4 C,1) z1 (A,3/2B,/ | C3/2D/ E4 B,3/2C/ |
+A,4) z2 (^G,3/2A,/ | B,2 =F,2 E,2 D2 | C3/2D/E3/2C/ A,1) z1 (^G,3/2A,/ | B,2 F,2 E,2 D2 | % bar 2: the natural before F is printed in parentheses
+C2) z2 !mf!!<(!(^C3 B,/C/ | D4) (^D3 ^^C/D/ | !f!!<)!E4)- E1(F/E/ ^D1E1 | F2 !>(!E4 B,3/2C/ | !>)!!fermata!A,6 !p!"^a tempo"(_A,2 | G,4 E,2 A,2 | % ? last bar: the flat sign stands on the top-line note, so A-flat rather than B-flat
+G,4 E,2) (C2 | B,4 D2 G,2 | E1C1G,1E,1 C,2) z2 | (G,4 E,1C1A,1^F,1 | G,4 E,2) (C2 | B,1C1D1E1 F3 B,1 |
+C4) z2 (C2 | {/E}D2 C1A,1 ^F,1E1D1C1 | B,1D1 G,3) (B,1 C1^C1 | E1D1=C1A,1 ^F,1D,1B,3/2A,/ | !>(!G,6)!>)! z2 | % ? bar 1: first note read as a half note (C4 on a ledger line); ? bar 2: grace note read as E4; ? bar 5: pitch of the dotted half read as G3
+!p!(G,4 E,2 A,2 | G,4 E,2) (C2 | B,1C1 D3) (G,1 {/C}A,3/2G,/ | E2- E/C/G,/E,/ C,2) z2 | % ? bar 3: grace note read as C4
+(G,4 E,1C1A,1C1 | G,4 E,1) !breath!(C,1E,1G,1 | C1E1 G4 B,2 | C2) z1 !p!E1D1 !>!A,2 B,1 |
+C1 !>!E,2 A,1 G,1 !>!D,2 A,1 | G,1E,1C,1 !f!!breath!E1 D1 !>!A,2 D1 | C1 !>!E,2 A,1 G,1 !>!D,2 G,1 | C,4 z4 |]
