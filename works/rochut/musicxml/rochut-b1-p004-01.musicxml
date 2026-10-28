@@ -343,7 +343,7 @@
       <note>
         <grace slash="yes" />
         <pitch>
-          <step>D</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <voice>1</voice>
@@ -434,7 +434,7 @@
       <note>
         <grace slash="yes" />
         <pitch>
-          <step>D</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <voice>1</voice>
@@ -561,6 +561,9 @@
         <voice>1</voice>
         <type>half</type>
         <notations>
+          <articulations>
+            <breath-mark />
+          </articulations>
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -574,9 +577,6 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
           <slur number="1" type="start" />
         </notations>
       </note>
@@ -1463,7 +1463,8 @@
       <note>
         <grace slash="yes" />
         <pitch>
-          <step>A</step>
+          <step>G</step>
+          <alter>0</alter>
           <octave>3</octave>
         </pitch>
         <voice>1</voice>
@@ -2193,6 +2194,9 @@
         <type>eighth</type>
         <beam number="1">begin</beam>
         <notations>
+          <articulations>
+            <staccato />
+          </articulations>
           <slur number="2" type="start" />
         </notations>
       </note>
@@ -2207,6 +2211,11 @@
         <type>eighth</type>
         <accidental>sharp</accidental>
         <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <staccato />
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>

@@ -360,9 +360,11 @@
           <octave>4</octave>
         </pitch>
         <duration>120</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>quarter</type>
         <notations>
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -372,6 +374,7 @@
           <octave>4</octave>
         </pitch>
         <duration>40</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <time-modification>
@@ -381,6 +384,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet type="start" bracket="yes" />
+          <tied type="stop" />
           <slur number="1" type="start" />
         </notations>
       </note>
@@ -1278,9 +1282,11 @@
           <octave>4</octave>
         </pitch>
         <duration>120</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>quarter</type>
         <notations>
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -1290,6 +1296,7 @@
           <octave>4</octave>
         </pitch>
         <duration>40</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <time-modification>
@@ -1299,8 +1306,14 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet type="start" bracket="yes" />
+          <tied type="stop" />
         </notations>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <words>rall.</words>
+        </direction-type>
+      </direction>
       <note>
         <pitch>
           <step>C</step>
@@ -1335,11 +1348,6 @@
           <tuplet type="stop" />
         </notations>
       </note>
-      <direction placement="below">
-        <direction-type>
-          <words>rall.</words>
-        </direction-type>
-      </direction>
       <note>
         <pitch>
           <step>E</step>
@@ -4000,9 +4008,11 @@
           <octave>4</octave>
         </pitch>
         <duration>120</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>quarter</type>
         <notations>
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -4012,6 +4022,7 @@
           <octave>4</octave>
         </pitch>
         <duration>40</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <time-modification>
@@ -4020,6 +4031,7 @@
         </time-modification>
         <notations>
           <tuplet type="start" bracket="yes" />
+          <tied type="stop" />
         </notations>
       </note>
       <note>
@@ -4147,6 +4159,7 @@
           <octave>4</octave>
         </pitch>
         <duration>40</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>eighth</type>
         <time-modification>
@@ -4156,6 +4169,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet type="stop" />
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -4170,6 +4184,7 @@
           <octave>4</octave>
         </pitch>
         <duration>40</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <time-modification>
@@ -4178,6 +4193,10 @@
         </time-modification>
         <notations>
           <tuplet type="start" bracket="yes" />
+          <tied type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
         </notations>
       </note>
       <note>
@@ -4194,9 +4213,6 @@
         </time-modification>
         <beam number="1">begin</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
           <slur number="1" type="start" />
         </notations>
       </note>
@@ -4278,10 +4294,12 @@
           <octave>3</octave>
         </pitch>
         <duration>360</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>half</type>
         <dot />
         <notations>
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -4303,8 +4321,12 @@
           <octave>3</octave>
         </pitch>
         <duration>240</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>half</type>
+        <notations>
+          <tied type="stop" />
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>

@@ -669,9 +669,11 @@
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>half</type>
         <notations>
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -681,9 +683,16 @@
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">begin</beam>
+        <notations>
+          <tied type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -695,9 +704,6 @@
         <type>eighth</type>
         <beam number="1">continue</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
           <slur number="1" type="start" />
         </notations>
       </note>
@@ -717,10 +723,12 @@
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">end</beam>
         <notations>
+          <tied type="start" />
           <articulations>
             <accent />
           </articulations>
@@ -735,9 +743,13 @@
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">begin</beam>
+        <notations>
+          <tied type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -768,10 +780,12 @@
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">end</beam>
         <notations>
+          <tied type="start" />
           <articulations>
             <accent />
           </articulations>
@@ -784,9 +798,13 @@
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">begin</beam>
+        <notations>
+          <tied type="stop" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -830,9 +848,11 @@
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>half</type>
         <notations>
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -842,11 +862,12 @@
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">begin</beam>
         <notations>
-          <slur number="1" type="start" />
+          <tied type="stop" />
         </notations>
       </note>
       <note>
@@ -858,6 +879,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">continue</beam>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
       </note>
       <note>
         <pitch>
@@ -1675,9 +1699,11 @@
           <octave>4</octave>
         </pitch>
         <duration>240</duration>
+        <tie type="start" />
         <voice>1</voice>
         <type>half</type>
         <notations>
+          <tied type="start" />
           <slur number="1" type="stop" />
         </notations>
       </note>
@@ -1687,10 +1713,19 @@
           <octave>4</octave>
         </pitch>
         <duration>60</duration>
+        <tie type="stop" />
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">begin</beam>
+        <notations>
+          <tied type="stop" />
+        </notations>
       </note>
+      <direction placement="below">
+        <direction-type>
+          <words>rall.</words>
+        </direction-type>
+      </direction>
       <note>
         <pitch>
           <step>F</step>
@@ -1800,6 +1835,7 @@
         <dot />
         <notations>
           <fermata type="upright" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <direction placement="below">
@@ -1825,7 +1861,7 @@
         <type>quarter</type>
         <accidental>flat</accidental>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
     </measure>
@@ -1878,7 +1914,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -1890,7 +1926,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
     </measure>
@@ -1973,7 +2009,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -1993,7 +2029,7 @@
         <voice>1</voice>
         <type>half</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -2058,7 +2094,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2070,7 +2106,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
     </measure>
@@ -2146,7 +2182,7 @@
         <voice>1</voice>
         <type>half</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2164,7 +2200,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
     </measure>
@@ -2281,7 +2317,7 @@
         <type>quarter</type>
         <dot />
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2293,7 +2329,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -2422,7 +2458,7 @@
         <type>half</type>
         <dot />
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <direction placement="below">
@@ -2455,7 +2491,7 @@
         <voice>1</voice>
         <type>half</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -2496,7 +2532,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2508,7 +2544,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
     </measure>
@@ -2543,7 +2579,7 @@
         <type>quarter</type>
         <dot />
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2555,14 +2591,14 @@
         <voice>1</voice>
         <type>eighth</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
         <grace slash="yes" />
         <pitch>
-          <step>C</step>
-          <octave>4</octave>
+          <step>B</step>
+          <octave>3</octave>
         </pitch>
         <voice>1</voice>
         <type>eighth</type>
@@ -2656,7 +2692,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2677,7 +2713,7 @@
         <voice>1</voice>
         <type>half</type>
         <notations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -2740,7 +2776,10 @@
         <voice>1</voice>
         <type>eighth</type>
         <notations>
-          <slur number="2" type="stop" />
+          <articulations>
+            <breath-mark />
+          </articulations>
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2753,10 +2792,7 @@
         <type>eighth</type>
         <beam number="1">begin</beam>
         <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
-          <slur number="2" type="start" />
+          <slur number="1" type="start" />
         </notations>
       </note>
       <note>
@@ -2830,7 +2866,7 @@
         <voice>1</voice>
         <type>quarter</type>
         <notations>
-          <slur number="2" type="stop" />
+          <slur number="1" type="stop" />
         </notations>
       </note>
       <note>
@@ -2987,6 +3023,11 @@
         <voice>1</voice>
         <type>eighth</type>
         <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <breath-mark />
+          </articulations>
+        </notations>
       </note>
       <direction placement="below">
         <direction-type>
@@ -3003,11 +3044,6 @@
         <duration>60</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations>
-          <articulations>
-            <breath-mark />
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
