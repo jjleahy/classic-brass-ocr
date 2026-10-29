@@ -1,0 +1,18 @@
+X:1
+T:No. 4
+Q:"Andante cantabile" 1/4=69
+M:3/4
+L:1/8
+K:F clef=bass
+z2 z2 !p!(C,2 | A,4 (3B,G,E, | F,2 C,1) z1 (C,2 | C4 (3DB,G, | F,3/2G,/E,1) z1 (C,2 |
+A,4 (3B,G,E, | C2-) ((3CB,A, (3G,B,D | (3CA,F, C,2 A,3/2G,/ | F,2) z2 (F,2- |
+F,2- (3F,D,E, (3F,A,G, | G,2 E,1) z1 ((3E,A,G, | F,2 (3DC=B, (3A,G,F, | E,2) z2 ((3E,F,^F, |
+G,2- (3G,A,=B, (3CDE | E2 A,2) ((3FED | C2- (3CDC {/C}(3=B,A,B, | C2-) (3C("_rall."C,D, (3E,F,G, |
+"^a tempo"A,4 (3B,G,E, | F,2 C,1) z1 ((3C,F,A, | C2- (3C=B,C (3D_B,G, | F,3/2G,/E,1) z1 ((3C,F,G, |
+A,2- (3A,G,F, (3E,F,G, | C,2- (3C,)(F,E, (3D,A,G, | (3C,F,A, C2 (3B,G,A, | F,2) z2 z2 |
+!p!"_dolce"(A,4 C3/2B,/ | A,3 F,1 D,1) z1 | (D,2- !<(!(3D,E,F, (3F,G,A,!<)! | !>(!A,2 !>)!E,2) z2 | (A,2- (3A,^G,A, C3/2B,/ |
+A,3 =G,1 F,2) | (A,2 {/B,}(3A,G,A, B,3/2E,/ | F,4) (A,2- | A,3 E,1 (3F,G,A, | E,3/2^C,/E,1) z1 (A,2- |
+A,2- (3A,E,G, {/G,}(3F,E,D, | !>(!A,4) !>)!z2 | !p!(A,4 (3B,G,E, | F,2 C,1) z1 ((3C,F,A, | C2- (3C=B,C (3ED_B, |
+G,2- (3G,)(C,D, (3E,F,G, | A,2- (3A,G,F, (3E,F,G, | C,2- (3C,)(F,E, (3D,A,G, |
+(3F,A,C (3FA,D (3CG,A, | F,2) z2 !p!((3A,B,A, | G,2- (3G,D,F, (3E,A,G, | F,2 C,1) z1 ((3A,B,C |
+D4 {/F}(3EDE | F2-) (3F (A,D (3CG,C- | (3CA,F-) "_rall."(3!breath!F (A,D (3CG,A, | !<(!F,6-) | !<)!!>(!F,4!>)! !fermata!z2 |]
